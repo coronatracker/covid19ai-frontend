@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,700,900&display=swap");
+
+html,
+body {
+  @apply font-body;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
